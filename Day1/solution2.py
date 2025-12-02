@@ -23,7 +23,7 @@ class CircularDial:
 lock = CircularDial()
 password = 0
 
-# Changed to input1.txt as that seems to be the available input file
+
 for line in open("input.txt"):
     command = line.strip()
     direction = command[0]
